@@ -1,3 +1,57 @@
 body {
     background-color: #130a0d;
+    margin: 50% 50%;
+}
+
+.city-sky-line {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: url(https://jackrugile.com/images/misc/skyline-texture.png);
+}
+
+.hoodie{
+
+}
+
+.Head {
+    display: block;
+    position: relative;
+    width: 126px;
+    height: 180px;
+    background-color: #000000;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    transform: scaleY(-1);
+  }
+
+  .eye {
+    width: 75px;
+    height: 40px;
+    border: 6px solid red;
+    background: rgb(255, 255, 255);
+    border-radius: 100px / 50px;
+    z-index: 1;
+    position: relative;
+    transform: skew(15deg, 20deg);
+    
+}
+
+.left {
+  left: -10px;
+  top: 85px;
+}
+
+.right{
+  left: 52px;
+  top: 32px;
+}
+
+#rotate1{
+  transform: rotate(105deg)
+}
+
+#rotate2{
+  transform: rotate(75deg);
 }
